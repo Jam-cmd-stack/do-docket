@@ -21,11 +21,11 @@ DoDocket — это простой менеджер задач, разработ
 
 ## Установка
 
-Клонируйте репозиторий или скачайте ZIP-архив:
+# Клонируйте репозиторий или скачайте ZIP-архив:
 - git clone https://github.com/Jam-cmd-stack/do-docket.git
 - Перейдите в корневую директорию проекта (где находится Dockerfile):
 - cd DoDocket
-- Построение и запуск Docker-образа:
+# Построение и запуск Docker-образа:
 - docker build -t dodocket .
 - docker run -it --rm -v ./python/tasks.db:/app/tasks.db dodocket
 
